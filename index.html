@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F & A</title>
+    <link rel="shortcut icon" type="x-icon" href="./assets/favicon/android-chrome-512x512.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Love+Light&family=Lovers+Quarrel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquerries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">F & A</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">Taklifnoma</a></li>
+                <li><a href="#experience">Qachon</a></li>
+                <li><a href="#projects">Birgalikdagi suratlarimiz</a></li>
+                <li><a href="#contact">Aloqga chiqing</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">F & A</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span> 
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">Taklifnoma</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Qachon</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Birgalikdagi suratlarimiz</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Aloqga chiqing</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="about">
+        <div class="about-containers">
+            <div class="section__pic-container">
+                <img src="./assets/primary.png" alt="Bizning rasm" />
+            </div>
+            <div class="section__text">
+                <p class="section__text__name">Fayzullo & Azizaxon</p>
+                <h1 class="title">Hurmatli mehmonimiz!</h1>
+                <p class="section__text__p2">Sizni 2024-yil 27 avgust kuni bo'lib o'tadigan "NIKOX" to'yimiz 
+                    munosabati bilan yoziladigan dasturxonimizga tashrif buyurib, xonadomizning aziz mehmoni 
+                    bo'lishingizmi so'raymiz. 
+                    <p class="section__text__p2"> Kamoli extirom bilan: <br> Shukurovlar va Pashkulovlar oilasi.</p>
+                    <p class="section__text__p2">Manzil: Angren shahar, "Angren Land" tantanalar saroyi</p>
+                </p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="experience">
+        <div class="launch-border">
+            <p class="section__text__p1">To'yimizgacha</p>
+            <div class="launch-time">
+                <div>
+                    <p id="days">00</p>
+                    <span>Kun</span>
+                </div>
+                <div>
+                    <p id="hours">00</p>
+                    <span>Soat</span> 
+                </div>
+                <div>
+                    <p id="minutes">00</p>
+                    <span>Daqiqa</span>
+                </div>
+                <div>
+                    <p id="seconds">00</p>
+                    <span>Sekund</span>
+                </div>
+            </div>
+            <p class="section__text__p1">qoldi</p>
+        </div>
+        
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Birgalikdagi rasmlarimiz</p>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assets/2.jpg" 
+                    alt="Project 1" 
+                    class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Birgalikdagi birichi rasmimiz</h2>
+                </div>
+           
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assets/1.jpg" 
+                    alt="Project 2" 
+                    class="project-img"
+                    />
+                </div>
+
+                <h2 class="experience-sub-title project-title">Birinchi Uchrashuvimiz</h2>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img 
+                    src="./assets/5.jpg" 
+                    alt="Project 3" 
+                    class="project-img"
+                    />
+                </div>
+                <h2 class="experience-sub-title project-title">Eng sevimli rasmimiz</h2>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Aloqa chiqing</p>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                src="./assets/email.png" 
+                alt="Email Icon" 
+                class="icon contact-icon email-icon"
+                >
+                <p><a href="mailto:fayzxuja@gmail.com">fayzxuja@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img 
+                src="./assets/telegram.png" 
+                alt="Telegram Icon" 
+                class="icon contact-icon"
+                >
+                <p><a href="https://t.me/fayzullo_shukurov">Telegram</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img 
+                src="./assets/instagram.png" 
+                alt="Telegram Icon" 
+                class="icon contact-icon"
+                >
+                <p><a href="https://www.instagram.com/fayz_travel?igsh=MTQ3bG9kdXJ6ZXBuZg%3D%3D&utm_source=qr">Instagram</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img 
+                src="./assets/github.png" 
+                alt="Github Icon" 
+                class="icon contact-icon"
+                >
+                <p><a href="https://github.com/fayzulloShukurov/">Github</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-link-container">
+                <ul class="nav-links">
+                    <li><a href="#about">Taklifnoma</a></li>
+                    <li><a href="#experience">Qachon</a></li>
+                    <li><a href="#projects">Birgalikdagi suratlarimiz</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Fayzullo Shukurov</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
